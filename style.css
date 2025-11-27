@@ -1,0 +1,164 @@
+.btn{
+    border: 1px solid black;
+    background-color: transparent;
+    width: 150px;
+    border-radius: 10px;
+    height: 150px;
+    cursor: pointer;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+#buttonContainer{
+    position: absolute;  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 10px; /* space between items */
+
+}
+#levelNo, #scoreNo, #level, #score{
+    color: white;
+    font-size: 30px;
+}
+
+#gameoverContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#gameoverSpan{
+    font-size: 30px;
+    color: red;
+}
+
+#controllers{
+    position: fixed; 
+    width: 100%;
+    bottom: 50px;   
+    display: flex;      
+    justify-content: center;
+    align-items: center;
+}
+
+#startBtn{
+ border: none;
+ background-color: transparent;
+ border-radius: 50px;
+ height: 50px;
+ width: 80px;
+ font-size: 20px;
+ color: white;
+ border: 1px solid white;
+}
+
+#startBtn:hover{
+    cursor: pointer;
+}
+
+.buttonBlink{
+    border: 5px solid black;
+}
+
+#startBtn:active{
+    border: 2px solid white;
+}
+.btn:hover
+{
+    border: 2px solid black;
+    width: 153px;
+    height: 153px;
+}
+
+.btn:active{
+    border: 5px solid black;
+    width: 155px;
+    height: 155px;
+}
+
+#instructionsContainer{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 400px;
+    font-size: 20px;
+    color: white;
+      position: fixed;
+  top: 210px;
+  right: 0px;
+
+}
+
+
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+
+@media (max-width: 768px) {
+
+#instructionsContainer{
+    font-size: 12px;
+    top: 90px;
+    right: 85px;
+}
+
+#gameoverContainer{
+    padding: 10px;
+}
+}
+
+@media (max-width: 600px) {
+#instructionsContainer{
+    font-size: 12px;
+    top: 90px;
+    right: 5px;
+}
+}
+
+@media (max-width: 480px) {
+#instructionsContainer{
+    font-size: 12px;
+    top: 90px;
+    right: 0px;
+    width: 300px;
+}
+
+.btn{
+    width: 120px;
+    height: 120px;
+}
+
+.btn:hover
+{
+    border: 2px solid black;
+    width: 123px;
+    height: 123px;
+}
+
+.btn:active{
+    border: 5px solid black;
+    width: 125px;
+    height: 125px;
+}
+
+}

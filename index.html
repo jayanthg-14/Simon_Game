@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div id="container">
+        <div id="header">
+            <div id="level">Level: <span id="levelNo">0</span></div>
+            <div id="score">Score: <span id="scoreNo">0</span></div>
+        </div>
+        <div id="gameoverContainer">
+            <span id="gameoverSpan"></span>
+        </div>
+        
+        <div id="buttonContainer">
+            <button value="red" id="red" class="btn">Red</button>
+            <button value="green" id="green" class="btn">Green</button>
+            <button value="yellow" id="yellow" class="btn">Yellow</button>
+            <button value="blue" id="blue" class="btn">Blue</button>
+        </div>
+        
+        <div id="controllers">
+            <button id="startBtn">Start</button>
+        </div>
+
+        <div id="instructionsContainer">
+            <span>1. Press Start to begin the game.</span>
+            <span>2. Watch the blink shown for the current level.</span>
+            <span>3. Remember the sequence by adding the new blink to the previous ones.</span>
+            <span>4. Click the buttons in the correct order to continue.</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
