@@ -121,6 +121,11 @@
     top: 90px;
     right: 85px;
 }
+#levelNo, #scoreNo, #level, #score{
+    color: white;
+    font-size: 28px;
+}
+
 
 #gameoverContainer{
     padding: 10px;
@@ -142,6 +147,12 @@
     right: 5px;
     width: 300px;
 }
+
+#levelNo, #scoreNo, #level, #score{
+    color: white;
+    font-size: 25px;
+}
+
 
 .btn{
     width: 120px;
