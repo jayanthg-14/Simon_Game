@@ -138,8 +138,8 @@
 @media (max-width: 480px) {
 #instructionsContainer{
     font-size: 12px;
-    top: 90px;
-    right: 0px;
+    top: 100px;
+    right: 5px;
     width: 300px;
 }
 
