@@ -39,7 +39,10 @@ async function roundExecution(round, score){
         btn.disabled = true;
     });
 
+    await sleep(300);
     
+
+
     await timer(round, colorsArr);
 
     buttons.forEach(btn => {
